@@ -6,7 +6,7 @@
   <title>TapCarta Demo</title>
 
   <script>
-    const APP_VERSION = 'V2.3.2.1';
+    const APP_VERSION = 'V2.3.2.2';
 const TAPCARTA_PUBLIC_LOGO_URL = 'https://i.postimg.cc/xjtDSCW8/logo-app-web-sans-fond.png';
 const LIVE_REQUESTS_ENABLED = true;
 let LIVE_RESTAURANT_ID = '';
@@ -3571,7 +3571,7 @@ function persistClientActiveView() {
       updateTapCartaPublicSignature();
     }
 
-    function updateInstallUI() {
+ function updateInstallUI() {
       const installBtn = document.getElementById('install-app-btn');
       const iosHelp = document.getElementById('ios-install-help');
       const t = translations[currentLang];
@@ -3702,7 +3702,7 @@ function persistClientActiveView() {
       }
     }
 
-    async function handleInstallClick() {
+ async function handleInstallClick() {
       const iosHelp = document.getElementById('ios-install-help');
       const t = translations[currentLang];
 
